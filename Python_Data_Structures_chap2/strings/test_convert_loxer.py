@@ -1,0 +1,6 @@
+word=input('Enter a string: \n')
+substring=input('Enter the letter you wanna count: \n')
+lower_word=word.lower()
+lower_substring=substring.lower()
+c=lower_word.count(lower_substring)
+print('Count=',c)
